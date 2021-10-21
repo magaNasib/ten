@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.order {
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+    background-color: black;
+    padding: 1rem 2rem;
+    width: 15rem;
+    margin: 0 1rem;
+    text-align: center;
+    font-size: 1.45rem;
+}
+
+.result-total {
+    height: 20vh;
+    font-size: 2rem;
+    background: lightgray;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-side {
+    height: 50vh;
+    display: flex;
+}
+
+.user, .computer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid lightgray;
+}
+
+.btns, p {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bottom-side button {
+    padding: 1rem;
+    margin: 0 1rem;
+    width: 10rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px 1px black;
+    font-size: 1.2rem;
+    background-color: lightgray;
+    color: black;
+}
+
+.footer {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .bottom-side {
+        display: flex;
+        flex-direction: column;
+    }
+    .user, .computer {
+        width: 100%;
+    }
+    .result-total {
+        font-size: 1.5rem;
+    }
+}
