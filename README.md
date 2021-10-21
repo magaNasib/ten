@@ -1,1 +1,1 @@
-magaNasib.github.io/ten
+https://maganasib.github.io/ten/
