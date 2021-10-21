@@ -54,9 +54,9 @@ function disableBtn(a, order) {
 }
 function compTurn() {
   disableBtn(value, order);
-  if ( value == 7 || value == 1 || value == 4) {
+  if ( value == 7) {
     value += getRandomInt(2) + 1;
-  } else if (value == 2 || value == 5 || value == 8) {
+  } else if (value == 2 || value == 5 || value == 8 || value == 1 || value == 4) {
     value += 2;
   } else if (value == 0 || value == 3 || value == 6 || value == 9) {
     value += 1;
